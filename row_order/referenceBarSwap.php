@@ -1,0 +1,11 @@
+<div id="referenceBar">
+<form class="searchform"><!-- form tags needed just to maintain formatting -->
+	<span class="rowText"><span class="youtube">Dictionary</span></span><!-- rowText -->
+    <input type="hidden" name="thesaurus" value="1" checked="checked" />
+    <span class="alignFields"><input type="text" name="q" id="q" maxlength=260 style="width:204px;" /></span><!-- alignFields -->
+    
+    <span class="alignRadio"><input type="radio" name="dictionary" onMouseDown="this.__chk = this.checked" onClick="if (this.__chk) this.checked = false" /><span class="dictionary">Thesaurus</span></span><!-- alignRadio -->
+    <span class="referenceAlignGo"><input type="submit" name="submit" value="Go" style="font-size:10pt; font-family: tahoma,arial,helvetica,sans-serif;" /></span><!-- referenceAlignGo -->
+</form>
+	<form class="searchform" name="referenceSwap" action="row_order/reference_processing.php" method="post"><input type="hidden" name="reference_swap" value="1"><span class="referenceSwap"><a href="javascript:document.referenceSwap.submit();" class="edit_window">Thesaurus</a></span></form><!-- referenceSwap -->
+</div><!-- referenceBar -->
