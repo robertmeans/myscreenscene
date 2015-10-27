@@ -1,9 +1,17 @@
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 
-02.16.14 at 10:58
+
+
+
+10.26.15 at 0955
 
 -------------------
-php.ini
+php.ini *deprecated* - replaced with .user.ini (10.26.15)
+
+.user.ini
 php5.ini
 -------------------
 
@@ -11,7 +19,22 @@ These 2 files must reside in the root of the hosting directory. At the time of t
 
 I have included phpinfo.php in this folder just in case you need to run it to see details of current php configuration.
 
-Current environment:
+Current environment
+OS: Linux
+PHP 5.4 *with apc enabled (had to manually enable through cPanel > Software > Select PHP version > apc checkbox)
+
+MySQL (not sure. but today's date is 10.26.15)
+
+
+*** light reading regarding apc
+https://www.devside.net/wamp-server/installing-apc-for-php-5-5
+
+
+
+
+
+
+Old environment (before cPanel):
 OS: Linux
 PHP 5.3.24
 MySQL 5.0

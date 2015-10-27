@@ -1,3 +1,5 @@
+; this was replaced with .user.ini in new cPanel
+
 register_globals = off
 allow_url_fopen = off
 output_buffering = on

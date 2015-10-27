@@ -1,4 +1,5 @@
 <?php 
+ob_start(); // just added this 10.26.15 (stackoverflow.com) to get header contact.php?sent to post whereas it wasn't before.
 include 'core/init.php';
 protect_page();
 include 'includes/overall/header.php'; 

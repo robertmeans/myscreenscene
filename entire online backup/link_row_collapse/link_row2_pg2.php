@@ -1,0 +1,5 @@
+	<span class="leftEmptyGutter">&nbsp;</span>
+	<span class="linkBox"><a href="<?php echo $user_data['a2_url_pg2']; ?>" class="textNav" target="_blank"><?php if (($user_data['a2_text_pg2']) == 'x') { echo $user_data['']; } else { echo stripslashes($user_data['a2_text_pg2']); } ?></a></span>
+	<span class="linkBox"><a href="<?php echo $user_data['b2_url_pg2']; ?>" class="textNav" target="_blank"><?php if (($user_data['b2_text_pg2']) == 'x') { echo $user_data['']; } else { echo stripslashes($user_data['b2_text_pg2']); } ?></a></span>
+	<span class="linkBox"><a href="<?php echo $user_data['c2_url_pg2']; ?>" class="textNav" target="_blank"><?php if (($user_data['c2_text_pg2']) == 'x') { echo $user_data['']; } else { echo stripslashes($user_data['c2_text_pg2']); } ?></a></span>
+	<span class="linkBoxRightEnd"><a href="<?php echo $user_data['d2_url_pg2']; ?>" class="textNav" target="_blank"><?php if (($user_data['d2_text_pg2']) == 'x') { echo $user_data['']; } else { echo stripslashes($user_data['d2_text_pg2']); } ?></a></span>

@@ -230,6 +230,12 @@ ul {
 	width: 133px;
 	padding-top: 2px;
 }
+.alignRadio label {
+	cursor: pointer;
+}
+.alignRadio label:hover {
+	color: #000;
+}
 .alignGo {
 	float: left;
 	width: 114px;

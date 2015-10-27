@@ -20,6 +20,6 @@
 --><!-- footer_social -->
 
 <div class="footer_copyright">
-&copy; myscreenscene.com 2013. all rights reserved. v1.4.0 
+&copy; myscreenscene.com 2015. all rights reserved. v1.5.0 
 </div><!-- footer_copyright -->   
 </div><!-- footer -->
