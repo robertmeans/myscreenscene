@@ -8,7 +8,7 @@ include 'includes/overall/header.php';
 <img src="images/spacer.gif" border="0" width="1" height="10" /><br />
 <h1>Email Bob</h1>
 
-<form action="formmail.php" method="post" onSubmit="return validateEmail(document.forms[1].email.value);">
+<form action="new-mail-script.php" method="post" onSubmit="return validateEmail(document.forms[1].email.value);">
 	Your name<br />
     <input type="text" name="name" id="name" size="30" <?php if (isset($_POST['name']) === true) { echo 'value="', strip_tags(stripslashes($_POST['name'])), '"'; } ?>>
     <br />
