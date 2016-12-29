@@ -18,7 +18,7 @@
     </div><!-- tr_tdBtn --> 
      
         <div class="tr_tdEnd">   
-           <a class="topNavLinks" href="register.php">Register</a> | Recover <a class="topNavLinks" href="recover.php?mode=username">username</a>/<a class="topNavLinks" href="pswd_recover.php?mode=password">password</a> | <a class="topNavLinks" href="message.php">Contact</a> | <a class="topNavLinks" href="/">Home</a>
+           <a class="topNavLinks" href="register.php">Register</a> | Recover <a class="topNavLinks" href="recover.php?mode=username">username</a>/<a class="topNavLinks" href="pswd_recover.php?mode=password">password</a> | <a class="topNavLinks" href="message.php">Contact</a> | <a class="topNavLinks" href="index.php">Home</a>
         
         <script type="text/javascript" language="JavaScript">document.forms['login'].elements['username'].focus();</script>
 		</div></form><!-- tr_tdEnd -->

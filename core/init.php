@@ -70,7 +70,7 @@ if (logged_in() === true) {
 	'd6_url', 'd6_url_pg2', 'd6_url_pg3', 'd6_text', 'd6_text_pg2', 'd6_text_pg3');
 	if (user_active($user_data['username']) === false) {
 		session_destroy();
-		header('Location: /');
+		header('Location: index.php');
 		exit();
 	}
 	if ($current_file !== 'changepassword.php' && $current_file !== 'logout.php' && $user_data['password_recover'] == 1) {

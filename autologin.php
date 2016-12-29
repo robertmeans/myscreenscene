@@ -13,7 +13,7 @@ $cookie_site_rememberme = @$_COOKIE['site_rememberme'];
 			$errors[] = 'That username/password combination is incorrect.';
 		} else {
 			$_SESSION['user_id'] = $login;
- 			header('Location: /');
+ 			header('Location: index.php');
 			exit();
 		}
 }

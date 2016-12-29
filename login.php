@@ -15,7 +15,7 @@ if($cookie_site_username != '' && $cookie_site_password != '')
 			$errors[] = 'That username/password combination is incorrect.';
 		} else {
 			$_SESSION['user_id'] = $login;
- 			header('Location: /');
+ 			header('Location: index.php');
 			exit();
 		}
 }
@@ -57,7 +57,7 @@ if (empty($_POST) === false) {
 				setcookie("site_rememberme", '', time()+(700*24*60*60));
 			}
 
-			header('Location: /');
+			header('Location: index.php');
 			exit();
 		}
 	}	
