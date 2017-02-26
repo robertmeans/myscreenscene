@@ -32,6 +32,8 @@ https://www.devside.net/wamp-server/installing-apc-for-php-5-5
 
 
 
+
+
 Old environment (before cPanel):
 OS: Linux
 PHP 5.3.24

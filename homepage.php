@@ -350,7 +350,7 @@ include 'scripts/clock4_homepage.php';
 
 <div id="messagesBar">    
 <div class="container">   
-<a href="#add_note" class="edit_window_add_note">Add a note</a>
+<a href="#add_note" class="edit_window_add_note">Add a notey</a>
     <div id="add_note" class="edit_popup"><a href="#" class="close"><img src="images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
         
       <form class="edit" action="processing/add_note.php" method="post">
