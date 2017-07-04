@@ -27,7 +27,7 @@
 <meta name="description" content="Your custom launch pad for everything Internet.">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/slate.css">
-<script type="text/javascript" src="scripts/scripts.js"></script>
+<script type="text/javascript" src="scripts/scripts.js?<?= time(); ?>"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <!-- have fun with these. I lost a few brain cells on this one. if you can code it more succinctly please show me how! -->
 <script type="text/javascript" src="scripts/jclock.js"></script>

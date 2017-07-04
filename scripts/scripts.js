@@ -14,7 +14,7 @@ function OnSubmitForm() {
   {
     document.reference.action ="http://dictionary.reference.com/search";
   } else {
-    document.reference.action ="http://thesaurus.com/the";
+    document.reference.action ="http://www.thesaurus.com/browse/" + document.getElementById('q').value;
   }
   return true;
 }
@@ -23,7 +23,7 @@ function OnSubmitForm() {
 function OnSubmitFormSwap() {
   if(document.reference.thesaurus.checked == true) 
   {
-    document.reference.action ="http://thesaurus.com/the";
+    document.reference.action ="http://www.thesaurus.com/browse/" + document.getElementById('q').value;
   } else {
     document.reference.action ="http://dictionary.reference.com/search";
   }
