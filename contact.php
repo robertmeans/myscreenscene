@@ -21,7 +21,7 @@ if (empty($_POST) === false) {
 		}
 	}
 	if (empty($errors) === true) {
-	mail('admin@myscreenscene.com', 'MyScreenScene - User Contact', $message, 'From: ' . $email);
+	mail('admin@myscreenscene.com', 'MyScreenScene - Member Contact', $message, 'From: ' . $email);
 	header('Location: contact.php?sent');
 	exit();	
 	}

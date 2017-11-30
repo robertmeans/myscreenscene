@@ -6,7 +6,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 local instructions in: Tools/PHP FormMail
 */
 
-$my_email = "admin@myscreenscene.com";
+$my_email = "bob@myscreenscene.com";
 /* let visitor fill in the "from" field - leave string below empty */
 $from_email = "";
 /* below is tied into html at btm of this php. unnecessary extra step so commented out. */
@@ -60,7 +60,7 @@ $message = $message . PHP_EOL.PHP_EOL."".PHP_EOL."";
 
 $message = stripslashes($message);
 
-$subject = "MyScreenScene - General Contact";
+$subject = "MyScreenScene - Visitor Contact";
 
 $subject = stripslashes($subject);
 
