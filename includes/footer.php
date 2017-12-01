@@ -18,8 +18,20 @@
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script>
 </div>
 --><!-- footer_social -->
+<?php
 
+function ewd_copyright($startYear) {
+	$currentYear = date('Y');
+	if ($startYear < $currentYear) {
+		$currentYear = date('y');
+		return "&copy; $startYear&ndash;$currentYear";
+	} else {
+		return "&copy; $startYear";
+	}
+}
+
+ ?>
 <div class="footer_copyright">
-&copy; myscreenscene.com 2015. all rights reserved. v1.5.0 
+<?= ewd_copyright(2015); ?> myscreenscene.com. all rights reserved. v1.5.0 
 </div><!-- footer_copyright -->   
 </div><!-- footer -->
