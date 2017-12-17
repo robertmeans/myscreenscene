@@ -41,7 +41,7 @@ if (empty($_POST) === false) {
 
 <?php
 if (isset($_GET['success']) && empty($_GET['success'])) {
-	echo 'You\'ve been registered successfully but there is 1 more step: <br><ol><li><b>Please check your email to activate your account</b> (This was sent immediately. Check your Spam folder if you don\'t see it.)</li><ol>';	
+	echo 'You\'ve been registered successfully but there is 1 more step: <br><ol><li><b>Please check your email to activate your account</b> (This was sent immediately. Keep an eye on your Spam folder if you don\'t see it.)</li><ol>';	
 } else {
 	if (empty($_POST) === false && empty($errors) === true) {
 		$register_data = array(
