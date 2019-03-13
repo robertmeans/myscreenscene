@@ -1,3 +1,9 @@
+<?
+// referenceBar.php and referenceBarSwap.php are the 2 pages rendering in Edit Mode
+// referenceBar_homepage and referenceBar_homepageSwap run functionality
+// this page is the Edit Mode page where Thesaurus is the default option
+// this page does not control the Thesaurus or Dictionary functionality
+?>
 <div id="referenceBar">
 <form class="searchform"><!-- form tags needed just to maintain formatting -->
 	<span class="rowText"><class class="youtube">Thesaurus</span></span><!-- rowText -->

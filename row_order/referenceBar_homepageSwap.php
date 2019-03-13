@@ -1,3 +1,6 @@
+<?
+// onSubmitFormSwap() in scripts/scripts.js
+?>
 <div id="referenceBar">
 <form name="reference" method="get" onSubmit="return OnSubmitFormSwap();" target="_blank">
 	<span class="rowText"><span class="youtube">Dictionary</span></span><!-- rowText -->

@@ -1,3 +1,6 @@
+<?
+// onSubmitForm() in scripts/scripts.js
+?>
 <div id="referenceBar">
 <form name="reference" method="get" onSubmit="return OnSubmitForm();" target="_blank">
 	<span class="rowText"><span class="youtube">Thesaurus</span></span><!-- rowText -->

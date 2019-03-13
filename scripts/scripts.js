@@ -9,23 +9,32 @@ function clearForms() {
 }
 
 // decide where to send for dictionary or thesaurus search  
+// when Thesaurus is primary search and Dictionary holds the radio button
+// OnSubmitForm() - if Thesaurus is primary but Dictionary is checked
 function OnSubmitForm() {
   if(document.reference.dictionary.checked == true) 
   {
-    document.reference.action ="http://dictionary.reference.com/search";
+    document.reference.action ="https://dictionary.com/browse/" + document.getElementById('q').value;
+    // used to be (below). not sure why the empty quotes at end...?
+    // document.reference.action ="https://dictionary.com/browse/" + document.getElementById('q').value + "";
   } else {
-    document.reference.action ="http://www.thesaurus.com/browse/" + document.getElementById('q').value;
+    document.reference.action ="https://www.thesaurus.com/browse/" + document.getElementById('q').value;
+    // document.reference.action ="http://www.thesaurus.com/browse/" + document.getElementById('q').value + "";
   }
   return true;
 }
 
-// decide where to send for dictionary or thesaurus - swap  
+// decide where to send for dictionary or thesaurus search  
+// when Dictionary is primary search and Thesaurus holds the radio button
+// OnSubmitFormSwap() - if Dictionary is primary but Thesaurus is checked
 function OnSubmitFormSwap() {
   if(document.reference.thesaurus.checked == true) 
   {
-    document.reference.action ="http://www.thesaurus.com/browse/" + document.getElementById('q').value;
+    document.reference.action ="https://www.thesaurus.com/browse/" + document.getElementById('q').value;
+    // document.reference.action ="http://www.thesaurus.com/browse/" + document.getElementById('q').value + "";
   } else {
-    document.reference.action ="http://dictionary.reference.com/search";
+    document.reference.action ="https://dictionary.com/browse/" + document.getElementById('q').value;
+    // document.reference.action ="https://dictionary.com/browse/" + document.getElementById('q').value + "";
   }
   return true;
 }

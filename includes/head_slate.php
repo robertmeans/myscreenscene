@@ -49,5 +49,13 @@ z-index: 800;
 
 </script>
 <!-- end Google Analytics -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script>
+	    function recaptchaCallback() {
+	        $('#confirm').addClass('display');
+	        $('#send').removeAttr('disabled');
+	        $('#send').removeClass('display');
+	    };
+    </script>
 
 </head>
