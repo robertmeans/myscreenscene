@@ -27,7 +27,7 @@ if (empty($_POST) === false) {
             function post_captcha($user_response) {
             $fields_string = '';
             $fields = array(
-                'secret' => '6LcnVW4UAAAAAGMsBA5Fv4FLq9FxrKtoKGLx34YB',
+                'secret' => 'hidden for github',
                 'response' => $user_response
             );
             foreach($fields as $key=>$value)
