@@ -541,6 +541,7 @@ textarea {
 .welcomeText {
 	padding-right: 15px;
 	padding-left: 15px;	
+	line-height: 1.5em;
 }
 .welcomeBob {
 	width: 180px;
